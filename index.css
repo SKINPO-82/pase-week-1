@@ -1,0 +1,235 @@
+
+
+
+
+.hide-layout {
+    height: 400px;
+    width: 100%;
+    background-color:rgba(0, 0, 0, 0.16);   
+}
+
+
+.centered{
+    display: flex;
+    place-content: center;
+    position: relative;
+    top: 170px;
+}
+.appbar{
+    height: 60px;
+    width: 900px;
+    background-color: white;
+    position: relative;
+    left: 260px;
+    border-radius: 0px 80px 10px 80px;
+    box-shadow: 10px 20px 30px teal;
+    
+    
+}
+
+i{
+    font-size: 47px;
+    font-weight: 900;
+    color: orange;
+    text-shadow: 10px 10px 10px red;
+    
+}
+ul{
+    display: flex;
+    
+
+}
+li{
+    margin: auto;
+    color: teal;
+    position: relative;
+    top: 15px;
+    border: 2px solid black;
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    border-radius: 0px 80px 10px 80px;
+    box-shadow: 10px 0px 0px teal;
+    list-style: none;
+    
+}
+
+li:hover{background-color: red
+
+}
+
+
+
+
+
+.one{
+    height: 280px;
+    width: 500px;
+    background-color: whitesmoke;
+    transform: skew(0,15deg);
+    position: relative;
+    left:109px ;
+    top: -70px;
+    box-shadow: 10px 20px 30px  black;
+    border-radius: 30px 30px 60px 10px;
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.two{
+    height: 390px;
+    width: 420px;
+    position: relative;
+    left: 100px;
+    top: -85px;
+    box-shadow: 0px 20px 30px 10px black;
+    border-radius: 20px 10px 10px 40px;
+    background: url("./foodbazaa/cars3.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+
+
+
+.downfloor{
+    height: 180px;
+    width: 300px;
+    background-color:rgba(0, 0, 0, 0.10);
+    position: relative;
+    left: 770px;
+    top: 605px;
+    transform: rotate(10deg)skew(-80deg);
+    border-radius: 120px 10px 10px 240px;
+    box-shadow: 0px 0px 2px 0.16px black;
+     
+   
+}
+
+.sidebar{
+    height: 600px;
+    width: 100px;
+    background-color: white;
+    position: relative;
+    top: -440px;
+    box-shadow: 1px 5px 5px 1px;
+    border-radius: 0px 40px 40px 0px;
+    
+}
+.sideboss{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 0px 40px 40px 0px;
+    box-shadow: 1px 5px 5px 1px;
+    margin-bottom: 60px;
+    transition: width;
+    transition-duration: 1s;
+}
+.sideboss :hover{width: 200px;
+
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    transition: width;
+    transition-duration: 2s;
+   
+}
+img:hover{
+    width: 200px;
+}
+
+.nana{
+    border-radius: 0px 40px 40px 0px;
+    box-shadow: 1px 5px 5px 1px;
+
+}
+
+.cross1{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    transform:skew(0,20deg) ;
+   
+}
+
+.cross2{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    transform:skew(0,-20deg) ;
+    position: relative;
+    top: -150px;
+    box-shadow: 10px 20px 30px  black;
+   
+}
+
+
+.cross3{
+    height: 300px;
+    width: 400px;
+    background-color: red;
+    transform:skew(0,20deg) ;
+    position: relative;
+    top: -150px;
+    box-shadow: 10px 20px 30px  black;
+      border-radius: 60px 0px 0px 90px;
+      background: url("./foodbazaa/car1.jpg");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      
+    
+   
+}
+
+
+.cross4{
+    height: 300px;
+    width: 400px;
+    background-color: red;
+    transform:skew(0,20deg) ; position: relative;
+    top: -450px;
+    left: 400px;  border-radius: 0px 60px 80px 0px;
+    box-shadow: 10px 10px 0px  black;
+    background: url("./foodbazaa/car7.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.cross5{ height: 300px;
+    width: 400px;
+    background-color: red;
+    transform:skew(0,20deg) ; position: relative;
+    top: -750px;
+    left: 810px;  border-radius: 0px 60px 80px 0px;
+    box-shadow: 10px 10px 0px  black;
+    background: url("./foodbazaa/car2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+
+.crossControl{
+    position: relative;
+    top: -400px;
+    
+
+}
+
+.controldown{
+    position: relative;
+    top: -700px;
+    left: 240px;
+
+}
